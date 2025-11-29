@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-animation {
+  display: inline-block;
+  animation: rotate 6s linear infinite;
+}

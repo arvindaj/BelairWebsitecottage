@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+/* home.css */
+
+/* H1 - Hero Title */
+.home-hero-title {
+  font-family: 'Didot', serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+/* P - Hero Paragraphs */
+.home-hero-text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #e5e7eb;
+}
+
+
+.view-facilities-btn {
+  font-family: 'Raleway', sans-serif;
+  /* Font family */
+  font-weight: 700;
+  /* Bold */
+  font-size: 15px;
+  /* Font size */
+  line-height: 26px;
+  /* Line height */
+  letter-spacing: 4%;
+  /* Letter spacing */
+  text-transform: uppercase;
+  /* Uppercase text */
+
+  background-color: #1B1C21;
+  /* Button background */
+  color: #ffff;
+  /* Text color */
+  padding: 10px 20px;
+  /* Padding (top-bottom, left-right) */
+  border-radius: 0.5rem;
+  /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Shadow */
+  cursor: pointer;
+  /* Pointer on hover */
+  transition: all 0.3s ease;
+  /* Smooth hover transition */
+}
+
+.view-facilities-btn:hover {
+  background-color: #f0f0f0;
+  color: #000000
+    /* Slightly darker on hover */
+}
+
+
+.resort-info-title-small {
+  font-family: 'Raleway', sans-serif;
+  /* Font family */
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+
+.resort-info-title-large {
+  font-family: 'Didot', serif;
+  /* custom font */
+  font-weight: 400;
+  /* normal */
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.resort-info-desc {
+  font-family: 'Raleway', sans-serif;
+  /* Normal */
+  font-style: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #4B5563;
+  /* Tailwind's gray-600 */
+}
+
+.Guests-Served-num {
+  font-family: GFS Didot;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 44px;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+
+}
+
+
+.facility-card {
+  background-color: #B7A18B26;
+  /* semi-transparent light brown */
+  padding: 2rem;
+  /* same as p-8 in Tailwind */
+  border-radius: 1rem;
+  /* rounded-xl */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* subtle shadow */
+  transition: all 0.3s ease;
+  /* smooth hover */
+}
+
+.resort-info-description {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #4b5563; /* Tailwind’s gray-600 */
+}
+
+
+.overlay-title {
+  font-family: "GFS Didot", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 24px;
+  letter-spacing: 0.04em; /* 4% letter spacing */
+  text-transform: capitalize;
+}
+
+.overlay-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+
+
+
+.room-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+
+.room-info-description {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 0;
+  
+   /* Tailwind’s gray-600 */
+}
+
+
+
+
+
+.gallery-title {
+  font-family: "GFS Didot", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  text-transform: capitalize;
+}
